@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "puppeteer": "^20.5.0"
+  },
+  "bin": "index.js",
+  "pkg": {
+    "targets": [
+      "win"
+    ]
+  },
+  "name": "login-osms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build_exe": "pkg package.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
